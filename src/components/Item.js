@@ -11,7 +11,7 @@ export const Item = ({ title, Desc, first, descLink, backgroundImg, leftBtnTxt, 
             }}>
                 <div className='item_container'>
                     <div className='item_text'>
-                        <p>{title}</p>
+                        <p className='item-title'>{title}</p>
                         <div className='item_textDesc'>
                             <p>{Desc}</p>
                         </div>

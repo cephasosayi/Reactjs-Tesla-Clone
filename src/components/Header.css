@@ -3,7 +3,7 @@
     background-color: transparent;
     background: none;
     position: fixed;
-    width: 100vw;
+    width: 95%;
     top: 15px;
     margin: 15px;
     margin-top: 15px;
@@ -34,4 +34,13 @@
 .header_right>p{
     margin: 10px;
 
+}
+
+@media (max-width: 576px){
+    .header_center, .header_right{
+        display: none;
+    }   
+    .header{
+        margin-bottom: 20px;
+    } 
 }
